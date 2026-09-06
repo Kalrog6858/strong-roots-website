@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://strongroots.ca/sitemap.xml

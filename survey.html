@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Community Survey — Strong Roots Crisis Helpline</title>
+<meta name="description" content="Anonymous four-minute survey. Help Strong Roots build culturally responsive crisis support for African, Black and Caribbean communities in Ontario.">
+<meta property="og:title" content="What does our community actually need?">
+<meta property="og:description" content="An anonymous four-minute survey that shapes the helpline we build.">
+<meta property="og:image" content="assets/img/logo-mark.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header data-site-header></header>
+
+<main id="main">
+
+  <section class="page-head" style="padding-bottom:clamp(44px,5vw,64px)">
+    <div class="wrap wrap-narrow">
+      <p class="crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Community Survey</p>
+      <span class="eyebrow">4 minutes · anonymous</span>
+      <h1>What does our community <em style="color:var(--gold);font-style:italic">actually</em> need?</h1>
+      <p class="lede">Strong Roots is building a culturally responsive crisis support and referral service for African, Black and Caribbean communities in Ontario. Your answers tell us what to build.</p>
+      <p class="lede" style="font-size:15.5px;margin-top:18px;border-left:2px solid var(--gold);padding-left:16px">
+        This survey is anonymous. We don't ask for your name, phone number or email, and you can skip any question you'd rather not answer.
+      </p>
+    </div>
+  </section>
+
+  <!-- progress bar -->
+  <div class="progress" id="progressBar">
+    <div class="wrap wrap-narrow">
+      <div class="progress-row">
+        <span class="progress-label"><span id="pnum">0</span> of 7 answered</span>
+        <span class="progress-track"><span class="progress-fill" id="pfill"></span></span>
+      </div>
+    </div>
+  </div>
+
+  <section class="pad-sm">
+    <div class="wrap wrap-narrow">
+
+      <div id="survey">
+
+        <div class="q" data-q="q1">
+          <span class="q-num"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Question 1</span>
+          <p class="q-text">Have you or someone close to you ever needed emotional, mental health, crisis, or community support but had difficulty finding or accessing the right service?</p>
+          <div class="opts radio">
+            <label class="opt"><input type="radio" name="q1" value="Yes"><span class="mark"></span><span>Yes</span></label>
+            <label class="opt"><input type="radio" name="q1" value="No"><span class="mark"></span><span>No</span></label>
+            <label class="opt"><input type="radio" name="q1" value="Not sure"><span class="mark"></span><span>Not sure</span></label>
+          </div>
+        </div>
+
+        <div class="q" data-q="q2">
+          <span class="q-num"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Question 2</span>
+          <p class="q-text">What barriers have made it difficult to get the support you or someone you know needed?</p>
+          <p class="q-hint">Select all that apply.</p>
+          <div class="opts check">
+            <label class="opt"><input type="checkbox" name="q2" value="I didn't know where to go for help"><span class="mark"></span><span>I didn't know where to go for help</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Long wait times"><span class="mark"></span><span>Long wait times</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Cost"><span class="mark"></span><span>Cost</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Transportation"><span class="mark"></span><span>Transportation</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Language barriers"><span class="mark"></span><span>Language barriers</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Stigma or fear of being judged"><span class="mark"></span><span>Stigma or fear of being judged</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Cultural differences or lack of understanding"><span class="mark"></span><span>Cultural differences or lack of understanding</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Previous negative experiences with services"><span class="mark"></span><span>Previous negative experiences with services</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Services were not available when needed"><span class="mark"></span><span>Services were not available when needed</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="I was unsure whether my situation was serious enough to seek help"><span class="mark"></span><span>I was unsure whether my situation was serious enough to seek help</span></label>
+            <label class="opt"><input type="checkbox" name="q2" value="Other" data-other="q2other"><span class="mark"></span><span>Something else</span></label>
+            <div class="other-in" id="q2other"><input type="text" placeholder="Tell us what got in the way"></div>
+          </div>
+        </div>
+
+        <div class="q" data-q="q3">
+          <span class="q-num"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Question 3</span>
+          <p class="q-text">How important is it to you that crisis and support services understand the cultural experiences of African, Black and Caribbean communities?</p>
+          <div class="opts radio">
+            <label class="opt"><input type="radio" name="q3" value="Extremely important"><span class="mark"></span><span>Extremely important</span></label>
+            <label class="opt"><input type="radio" name="q3" value="Very important"><span class="mark"></span><span>Very important</span></label>
+            <label class="opt"><input type="radio" name="q3" value="Somewhat important"><span class="mark"></span><span>Somewhat important</span></label>
+            <label class="opt"><input type="radio" name="q3" value="Not very important"><span class="mark"></span><span>Not very important</span></label>
+            <label class="opt"><input type="radio" name="q3" value="Not important at all"><span class="mark"></span><span>Not important at all</span></label>
+          </div>
+        </div>
+
+        <div class="q" data-q="q4">
+          <span class="q-num"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Question 4</span>
+          <p class="q-text">Have you ever felt that an existing mental health, crisis, or social service did not fully understand your cultural background or personal circumstances?</p>
+          <div class="opts radio">
+            <label class="opt"><input type="radio" name="q4" value="Yes"><span class="mark"></span><span>Yes</span></label>
+            <label class="opt"><input type="radio" name="q4" value="No"><span class="mark"></span><span>No</span></label>
+            <label class="opt"><input type="radio" name="q4" value="Not sure"><span class="mark"></span><span>Not sure</span></label>
+            <label class="opt"><input type="radio" name="q4" value="Prefer not to say"><span class="mark"></span><span>Prefer not to say</span></label>
+          </div>
+        </div>
+
+        <div class="q" data-q="q5">
+          <span class="q-num"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Question 5</span>
+          <p class="q-text">If a confidential phone service were available to provide emotional support, crisis assistance, and connections to community resources, how likely would you be to use it or recommend it to someone you know?</p>
+          <div class="opts radio">
+            <label class="opt"><input type="radio" name="q5" value="Very likely"><span class="mark"></span><span>Very likely</span></label>
+            <label class="opt"><input type="radio" name="q5" value="Likely"><span class="mark"></span><span>Likely</span></label>
+            <label class="opt"><input type="radio" name="q5" value="Maybe"><span class="mark"></span><span>Maybe</span></label>
+            <label class="opt"><input type="radio" name="q5" value="Unlikely"><span class="mark"></span><span>Unlikely</span></label>
+            <label class="opt"><input type="radio" name="q5" value="Very unlikely"><span class="mark"></span><span>Very unlikely</span></label>
+          </div>
+        </div>
+
+        <div class="q" data-q="q6">
+          <span class="q-num"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Question 6</span>
+          <p class="q-text">What types of support would you most want from a service like Strong Roots Crisis Helpline?</p>
+          <p class="q-hint">Select all that apply.</p>
+          <div class="opts check">
+            <label class="opt"><input type="checkbox" name="q6" value="Someone to talk to when I'm overwhelmed"><span class="mark"></span><span>Someone to talk to when I'm overwhelmed</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Crisis support"><span class="mark"></span><span>Crisis support</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Mental health referrals"><span class="mark"></span><span>Mental health referrals</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Housing and shelter referrals"><span class="mark"></span><span>Housing and shelter referrals</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Food and basic-needs resources"><span class="mark"></span><span>Food and basic-needs resources</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Employment and financial resources"><span class="mark"></span><span>Employment and financial resources</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Family support"><span class="mark"></span><span>Family support</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Youth support"><span class="mark"></span><span>Youth support</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Newcomer/immigration-related community resources"><span class="mark"></span><span>Newcomer and immigration-related resources</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Legal/community resources"><span class="mark"></span><span>Legal and community resources</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Follow-up after receiving a referral"><span class="mark"></span><span>Follow-up after receiving a referral</span></label>
+            <label class="opt"><input type="checkbox" name="q6" value="Other" data-other="q6other"><span class="mark"></span><span>Something else</span></label>
+            <div class="other-in" id="q6other"><input type="text" placeholder="Tell us what you'd want"></div>
+          </div>
+        </div>
+
+        <div class="q" data-q="q7">
+          <span class="q-num"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span> Question 7</span>
+          <p class="q-text">In your own words, what do you believe is missing from the current support services available to African, Black and Caribbean communities in Ontario?</p>
+          <p class="q-hint">What could a new helpline do differently, or better?</p>
+          <textarea id="q7" placeholder="Write as much or as little as you want."></textarea>
+        </div>
+
+        <div class="optional">
+          <h2>A little about you</h2>
+          <p class="sub">All optional. This helps us show funders who we're reaching. It is never linked to your answers above in any identifying way.</p>
+
+          <div class="field">
+            <label for="dage">Age range</label>
+            <select id="dage">
+              <option value="">Prefer not to say</option>
+              <option>Under 18</option><option>18–24</option><option>25–34</option>
+              <option>35–44</option><option>45–54</option><option>55–64</option><option>65+</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="dregion">Where in Ontario do you live?</label>
+            <select id="dregion">
+              <option value="">Prefer not to say</option>
+              <option>Toronto</option><option>Peel (Mississauga, Brampton)</option>
+              <option>York (Markham, Vaughan, Richmond Hill)</option><option>Durham</option>
+              <option>Halton</option><option>Hamilton / Niagara</option>
+              <option>Ottawa</option><option>Windsor / Southwestern Ontario</option>
+              <option>Northern Ontario</option><option>Elsewhere in Ontario</option><option>Outside Ontario</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="dident">Do you identify as African, Black, or Caribbean?</label>
+            <select id="dident">
+              <option value="">Prefer not to say</option>
+              <option>Yes</option><option>No</option>
+              <option>Yes — I am a newcomer or immigrant to Canada</option>
+              <option>Yes — I am a refugee or refugee claimant</option>
+            </select>
+          </div>
+          <div class="field" style="margin-bottom:0">
+            <label for="dheard">How did you hear about this survey?</label>
+            <select id="dheard">
+              <option value="">Prefer not to say</option>
+              <option>Friend or family</option><option>Community organization</option>
+              <option>Church, mosque, or faith group</option><option>Social media</option>
+              <option>WhatsApp group</option><option>Event or workshop</option><option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="submit-zone">
+          <button class="btn btn-call" id="send" type="button">Send my answers</button>
+          <p class="submit-note">You can send your answers even if you skipped some questions.</p>
+          <p class="err" id="err"></p>
+        </div>
+      </div>
+
+      <div id="thanks">
+        <div class="glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+        <h2>Thank you for trusting us with this.</h2>
+        <p>Your feedback helps Strong Roots build a service that is accessible, culturally responsive, compassionate and community-driven.</p>
+        <p><strong style="color:var(--heading)">Strong Roots. Strong People. Strong Communities.</strong></p>
+        <div class="btn-row center">
+          <a class="btn btn-primary" href="index.html">Back to the homepage</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================== SUPPORT NOW -->
+  <section class="pad-sm bg-surface">
+    <div class="wrap">
+      <div class="section-head reveal" style="margin-bottom:26px">
+        <h2 style="font-size:clamp(24px,3vw,32px)">If you need support right now</h2>
+      </div>
+      <div class="resource-list" data-resources></div>
+      <p style="font-size:14.5px;color:var(--muted);margin-top:22px">In an emergency, call 911 or go to your nearest hospital.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer data-site-footer></footer>
+<script src="assets/js/site.js"></script>
+
+<script>
+/* ==========================================================================
+   WHERE THE SURVEY ANSWERS GO
+   --------------------------------------------------------------------------
+   This is the Google Apps Script web-app link that writes each response into
+   your Google Sheet. If you ever rebuild that script, paste the new link
+   (the long one ending in /exec) between the quote marks below.
+   ========================================================================== */
+
+var GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwMqjzaupfcg6LfKMuSwXJhk5aLwaCIiADDpp3LQxbtLcV0pXSmB4X1X-40XqYKW7oM/exec";
+
+/* ========================================================================== */
+
+(function () {
+  "use strict";
+
+  var QIDS = ["q1", "q2", "q3", "q4", "q5", "q6", "q7"];
+  var survey  = document.getElementById("survey");
+  var thanks  = document.getElementById("thanks");
+  var pfill   = document.getElementById("pfill");
+  var pnum    = document.getElementById("pnum");
+  var err     = document.getElementById("err");
+  var sendBtn = document.getElementById("send");
+  var bar     = document.getElementById("progressBar");
+
+  document.querySelectorAll("input[data-other]").forEach(function (cb) {
+    cb.addEventListener("change", function () {
+      var box = document.getElementById(cb.getAttribute("data-other"));
+      box.classList.toggle("is-on", cb.checked);
+      if (cb.checked) box.querySelector("input").focus();
+    });
+  });
+
+  function answered(id) {
+    if (id === "q7") return document.getElementById("q7").value.trim().length > 0;
+    return document.querySelector('input[name="' + id + '"]:checked') !== null;
+  }
+
+  function update() {
+    var n = 0;
+    QIDS.forEach(function (id) {
+      var done = answered(id);
+      if (done) n++;
+      document.querySelector('.q[data-q="' + id + '"]').classList.toggle("is-done", done);
+    });
+    pfill.style.width = (n / 7) * 100 + "%";
+    pnum.textContent = n;
+  }
+
+  document.addEventListener("change", update);
+  document.getElementById("q7").addEventListener("input", update);
+  update();
+
+  function multi(name) {
+    return Array.prototype.slice
+      .call(document.querySelectorAll('input[name="' + name + '"]:checked'))
+      .map(function (i) { return i.value; });
+  }
+  function single(name) {
+    var el = document.querySelector('input[name="' + name + '"]:checked');
+    return el ? el.value : "";
+  }
+  function otherText(id) {
+    var box = document.getElementById(id);
+    return box.classList.contains("is-on") ? box.querySelector("input").value.trim() : "";
+  }
+
+  function showThanks() {
+    survey.style.display = "none";
+    bar.style.display = "none";
+    thanks.style.display = "block";
+    window.scrollTo(0, 0);
+  }
+  function fail(msg) {
+    sendBtn.disabled = false;
+    sendBtn.textContent = "Send my answers";
+    err.textContent = msg;
+    err.classList.add("is-on");
+  }
+
+  sendBtn.addEventListener("click", function () {
+    err.classList.remove("is-on");
+
+    if (GOOGLE_SCRIPT_URL.indexOf("PASTE_YOUR_LINK") !== -1) {
+      fail("This survey is not connected to its response sheet yet.");
+      return;
+    }
+    if (QIDS.filter(answered).length === 0) {
+      fail("Please answer at least one question before sending.");
+      return;
+    }
+
+    var data = {
+      q1: single("q1"),
+      q2: multi("q2"), q2_other: otherText("q2other"),
+      q3: single("q3"),
+      q4: single("q4"),
+      q5: single("q5"),
+      q6: multi("q6"), q6_other: otherText("q6other"),
+      q7: document.getElementById("q7").value.trim(),
+      age: document.getElementById("dage").value,
+      region: document.getElementById("dregion").value,
+      identity: document.getElementById("dident").value,
+      heard: document.getElementById("dheard").value
+    };
+
+    sendBtn.disabled = true;
+    sendBtn.textContent = "Sending…";
+
+    var body = JSON.stringify(data);
+
+    fetch(GOOGLE_SCRIPT_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: body
+    })
+      .then(function () { showThanks(); })
+      .catch(function () {
+        fetch(GOOGLE_SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: body
+        })
+          .then(function () { showThanks(); })
+          .catch(function () {
+            fail("Your answers could not be sent. Please check your internet connection and tap Send again.");
+          });
+      });
+  });
+})();
+</script>
+</body>
+</html>
