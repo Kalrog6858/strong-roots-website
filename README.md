@@ -12,8 +12,7 @@ someone to talk to.
 
 You're most likely here to look at the site itself rather than the code.
 
-- **Live preview:** see the link in the repository's *About* section, or the
-  **github-pages** deployment on the right-hand side of this page.
+- **Live site:** <https://kalrog6858.github.io/strong-roots-website/>
 - Have a look on your phone as well as a computer — most people in crisis will
   reach this on a phone.
 
@@ -33,6 +32,8 @@ You're most likely here to look at the site itself rather than the code.
 
 - There is no privacy policy page yet.
 - The domain is temporary; a `.ca` address is next.
+- Search engines are deliberately blocked (`robots.txt`) while the site is
+  under review, so this temporary address doesn't get indexed.
 
 ---
 

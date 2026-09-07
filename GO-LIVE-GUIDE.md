@@ -134,11 +134,23 @@ When it's done, `https://strongroots.ca` loads your site with a padlock in the
 address bar. **Do not skip this** — people are typing sensitive things into your
 survey, and the padlock is what tells them the connection is private.
 
-## Step 7 — Update the site with the real address
+## Step 7 — Update the site with the real address, and let Google in
 
-Open `sitemap.xml` and `robots.txt` in your website folder and replace
-`https://strongroots.ca` with your actual domain if it's different. Then
-re-drag the folder onto Netlify to publish.
+Two files to edit in your website folder:
+
+1. **`robots.txt`** — search engines are currently **blocked**, on purpose,
+   because the site is sitting on a temporary GitHub address while Rufael
+   reviews it. The file has instructions inside it: delete two lines, uncomment
+   three. Do this only once `strongroots.ca` actually works.
+2. **`sitemap.xml`** — replace `https://strongroots.ca` with your real domain
+   if it turned out to be different.
+
+Then publish again.
+
+> **Why blocking matters.** If Google indexes the temporary GitHub address
+> first, that page competes with your real `.ca` domain in search results, and
+> it puts wording nobody has approved yet in front of the public. Keep it
+> blocked until launch day.
 
 ---
 

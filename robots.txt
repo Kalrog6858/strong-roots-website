@@ -1,4 +1,19 @@
-User-agent: *
-Allow: /
+# ---------------------------------------------------------------------------
+# The site is on a TEMPORARY GitHub address while it is being reviewed, so
+# search engines are blocked for now. If Google indexed this address, it would
+# compete with your real strongroots.ca later, and it would list wording that
+# has not been approved yet.
+#
+# ON LAUNCH DAY, once strongroots.ca is working:
+#   delete the two lines marked BELOW, and remove the "#" from the two lines
+#   marked AFTER. That switches search engines on.
+# ---------------------------------------------------------------------------
 
-Sitemap: https://strongroots.ca/sitemap.xml
+# BELOW - delete these two lines at launch
+User-agent: *
+Disallow: /
+
+# AFTER - remove the "#" from these three lines at launch
+# User-agent: *
+# Allow: /
+# Sitemap: https://strongroots.ca/sitemap.xml
