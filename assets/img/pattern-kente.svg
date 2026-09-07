@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="16" viewBox="0 0 96 16" preserveAspectRatio="none">
+  <!-- Woven band motif, tiles horizontally. Colours match the site palette. -->
+  <rect width="96" height="16" fill="#0E4B36"/>
+  <path d="M0 8 8 0 16 8 8 16Z" fill="#DFA02C"/>
+  <rect x="20" y="0" width="3" height="16" fill="#FBF7F1"/>
+  <rect x="26" y="0" width="6" height="16" fill="#C85F2C"/>
+  <rect x="35" y="0" width="3" height="16" fill="#FBF7F1"/>
+  <path d="M44 8 52 0 60 8 52 16Z" fill="#DFA02C"/>
+  <rect x="64" y="0" width="3" height="16" fill="#FBF7F1"/>
+  <rect x="70" y="0" width="6" height="16" fill="#C85F2C"/>
+  <rect x="79" y="0" width="3" height="16" fill="#FBF7F1"/>
+  <path d="M84 8 92 0 96 4 96 12 92 16Z" fill="#DFA02C"/>
+</svg>

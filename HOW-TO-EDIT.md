@@ -121,16 +121,23 @@ Files already there:
 
 | File | What it is |
 | --- | --- |
-| `rufael-portrait.jpg` | The retouched founder photo on the deep indigo background |
-| `rufael-portrait-light.jpg` | The same photo on a light grey background |
+| `rufael-portrait.jpg` | The retouched founder photo on a warm brown backdrop |
+| `rufael-portrait-green.jpg` | The same photo on a deep green backdrop |
 | `rufael-cutout.png` | The photo with **no background at all** — useful for posters and social posts |
 | `rufael-square.jpg` | Square crop, good for Instagram or LinkedIn profile pictures |
 | `logo-mark.png` | Just the tree, transparent background |
 | `logo-full.png` | The full logo with the words, transparent background |
+| `pattern-kente.svg` | The woven strip used as a divider and along the top of the footer |
+| `pattern-weave.svg` | The faint mudcloth texture over the brown sections |
 
-**To use the light version instead**, open `index.html`, find
-`rufael-portrait.jpg` and change it to `rufael-portrait-light.jpg`.
+**To use the green version instead**, open `index.html`, find
+`rufael-portrait.jpg` and change it to `rufael-portrait-green.jpg`.
 Do the same in `about.html`.
+
+The photo sits inside an arch-shaped frame (rounded at the top like a doorway).
+That shape is set in the CSS by `--arch` and applies wherever the founder photo
+appears, so you don't have to crop your replacement picture into an arch — just
+use a normal upright photo.
 
 ---
 
@@ -139,14 +146,22 @@ Do the same in `about.html`.
 Open `assets/css/styles.css`. The very top has a list like this:
 
 ```css
---ink: #12103A;      /* deep indigo — dark sections and headings */
---violet: #5B4BE8;   /* main action colour */
---coral: #FF6A4D;    /* "call now" colour */
---gold: #E8A93A;     /* small accents, echoes the logo */
+--bark:   #2A1A11;   /* deepest brown — the dark sections */
+--forest: #0E4B36;   /* deep green — links and green buttons */
+--clay:   #C85F2C;   /* terracotta — the "call now" buttons */
+--gold:   #DFA02C;   /* gold accents, straight from the logo */
+--bone:   #FAF6F0;   /* warm off-white background */
 ```
 
 Change a colour code there and it updates everywhere on the site.
 You can pick new colour codes at <https://coolors.co>.
+
+**The woven patterns.** Two small picture files carry the African textile feel:
+`assets/img/pattern-kente.svg` is the colourful woven strip you see between
+sections and along the top of the footer, and `assets/img/pattern-weave.svg` is
+the faint mudcloth texture over the brown areas. Both are plain text files you
+can open in Notepad — the colour codes inside them are the same ones listed
+above, so if you change the palette, update these two files to match.
 
 ---
 
