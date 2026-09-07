@@ -534,6 +534,15 @@ section { position: relative; }
   background: linear-gradient(150deg, var(--gold), var(--clay));
   opacity: .22; z-index: -1;
 }
+/* mirrored version — text on the left, photo on the right */
+@media (min-width: 900px) {
+  .founder.is-reverse { grid-template-columns: 1.18fr .82fr; }
+}
+@media (max-width: 899px) {
+  .founder.is-reverse .founder-photo { order: -1; }
+}
+.founder.is-reverse .founder-photo::before { inset: 26px 26px -20px -20px; }
+
 .founder-badge {
   position: absolute; left: 50%; bottom: -24px; transform: translateX(-50%);
   display: inline-flex; align-items: center; gap: 12px;
