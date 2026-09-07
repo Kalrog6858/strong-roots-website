@@ -31,7 +31,6 @@ You're most likely here to look at the site itself rather than the code.
 
 ### Known gaps
 
-- The Chief Program Officer's photo is a placeholder.
 - There is no privacy policy page yet.
 - The domain is temporary; a `.ca` address is next.
 

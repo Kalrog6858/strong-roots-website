@@ -121,7 +121,9 @@ Files already there:
 
 | File | What it is |
 | --- | --- |
-| `kaleab-portrait.jpg` | **Placeholder** — the Chief Program Officer photo still needs to be added |
+| `kaleab-portrait.jpg` | The retouched Chief Program Officer photo, matching Rufael's |
+| `kaleab-cutout.png` | Kaleab with **no background at all** |
+| `kaleab-square.jpg` | Square crop for Instagram or LinkedIn |
 | `rufael-portrait.jpg` | The retouched founder photo on a warm brown backdrop |
 | `rufael-portrait-green.jpg` | The same photo on a deep green backdrop |
 | `rufael-cutout.png` | The photo with **no background at all** — useful for posters and social posts |
@@ -135,16 +137,8 @@ Files already there:
 `rufael-portrait.jpg` and change it to `rufael-portrait-green.jpg`.
 Do the same in `about.html`.
 
-### Still to do: Kaleab's photo
-
-`kaleab-portrait.jpg` is currently a gold "K" placeholder, not a real photo.
-To have it retouched to match Rufael's — background removed, warm brown studio
-backdrop, same crop and colour grade — save the original photo anywhere on this
-computer and say so in the chat. It takes a couple of minutes.
-
-To drop a photo in yourself instead, save it over
-`assets/img/kaleab-portrait.jpg`. Use an upright photo where the head is near
-the top; the arch frame crops the corners.
+Your original, untouched photos are kept outside this folder so they don't get
+published: `Desktop\Kaleab-original-photo.jpg`.
 
 The photo sits inside an arch-shaped frame (rounded at the top like a doorway).
 That shape is set in the CSS by `--arch` and applies wherever the founder photo
